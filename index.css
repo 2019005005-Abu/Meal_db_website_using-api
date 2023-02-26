@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.banner_nav_section{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/banner_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(16, 15, 15, 0.7);
+}
+
+.banner_alldetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalImage{
+    width: 200px;
+    height: 200px;
+    margin-right: 350px;
+}
+
+
+
